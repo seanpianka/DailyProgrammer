@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Server: meinheld/0.6.1
+Date: Thu, 21 Dec 2017 21:57:00 GMT
+Content-Type: application/json
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+X-Powered-By: Flask
+X-Processed-Time: 0.000633001327515
+Content-Length: 157
+Via: 1.1 vegur
+
+{
+  "args": {}, 
+  "headers": {
+    "Connection": "close", 
+    "Host": "httpbin.org"
+  }, 
+  "origin": "97.97.206.80", 
+  "url": "http://httpbin.org/get"
+}
+
