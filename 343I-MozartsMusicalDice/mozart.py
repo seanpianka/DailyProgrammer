@@ -27,8 +27,6 @@ def select_measures(measures, measure_count):
 
 
 def mozart_diceroll(beats, measure_count, beats_per_measure):
-    total_measures = math.ceil(beats[-1][1]) / beats_per_measure
-
     measures = []
     measure = []
     i = 0
